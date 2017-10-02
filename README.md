@@ -7,7 +7,7 @@ eg.
 void BuyGoods(int ngid, int num, int nType)
 {
 	char szWorks[256];
-	//0 Ê¹ÓÃÔª±¦¹ºÂò
+	//0 ä½¿ç”¨å…ƒå®è´­ä¹°
 	sprintf_s(szWorks, "[%d,%u,2,\"shop\",\"buyGoods\",\"%d\",%d,%d]", g_nUID, g_nMsgID, ngid, num, nType);
 	std::string strIn = szWorks;
 	AMFSerializer amf;
